@@ -183,7 +183,7 @@
 		"ypos"			"100"
 		"zpos"			"-99"
 		"wide"			"f0"
-		"tall"			"13"
+		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_solid_line"
@@ -1768,7 +1768,7 @@
 		"xpos"			"15"
 		"ypos"			"35"
 		"zpos"			"-10"
-		"wide"			"375"
+		"wide"			"407"
 		"tall"			"65"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
@@ -1797,7 +1797,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"TF2GoldRushDotCom"
-			"xpos"			"70"
+			"xpos"			"71"
 			"ypos"			"40"
 			"wide"			"20"
 			"tall"			"20"
@@ -1811,7 +1811,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"MidWifeCrisis"
-			"xpos"			"95"
+			"xpos"			"96"
 			"ypos"			"40"
 			"wide"			"20"
 			"tall"			"20"
@@ -1825,7 +1825,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Yooper"
-			"xpos"			"120"
+			"xpos"			"121"
 			"ypos"			"40"
 			"wide"			"20"
 			"tall"			"20"
@@ -1839,7 +1839,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"amalLdeppalC"
-			"xpos"			"145"
+			"xpos"			"146"
 			"ypos"			"40"
 			"wide"			"20"
 			"tall"			"20"
@@ -1853,7 +1853,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Ourprime"
-			"xpos"			"170"
+			"xpos"			"171"
 			"ypos"			"40"
 			"wide"			"20"
 			"tall"			"20"
@@ -1867,7 +1867,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Neverforget"
-			"xpos"			"195"
+			"xpos"			"196"
 			"ypos"			"40"
 			"wide"			"20"
 			"tall"			"20"
@@ -1882,7 +1882,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ViewAchievementsButton"
-		"xpos"			"200+15+75"
+		"xpos"			"200+15+75+32"
 		"ypos"			"42+35"
 		"zpos"			"1"
 		"wide"			"90"
@@ -1906,15 +1906,16 @@
 	"ClassChallenges"
 	{
 		"ControlName"	"CCyclingAdContainerPanel"
-		"xpos"			"470"
+		"xpos"			"470-32"
 		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"370"
-		"tall"			"102"
+		"zpos"			"-5"
+		"wide"			"407"
+		"tall"			"999"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0" //42 39 37 255
 		"PaintBackgroundType"	"2"
-		
+		"mouseinputenabled"		"0"
+	
 		"FadeTransition"
 		{
 			"wide"		"0"
@@ -1927,8 +1928,7 @@
 			"wide"		"0"
 			"tall"		"0"
 			"visible"	"0"
-		}
-
+		}	
 
 		"items"
 		{
@@ -2063,9 +2063,7 @@
 					"armedFgColor_override" "235 226 202 255"
 					"depressedFgColor_override" "46 43 42 255"
 				}
-				
-				
-				
+								
 				"ItemIcon"
 				{
 					"wide"		"0"
@@ -3303,10 +3301,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"TopRightDataPanel"
-		"xpos"			"470"
+		"xpos"			"432"
 		"ypos"			"35"
 		"zpos"			"-10"
-		"wide"			"370"
+		"wide"			"407"
 		"tall"			"65"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"

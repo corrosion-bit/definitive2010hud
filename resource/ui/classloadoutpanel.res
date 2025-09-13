@@ -88,13 +88,8 @@
 			}			
 			
 			"modelpanel9"
-			{
-			"ControlName"	"CItemModelPanel"
-			"xpos"			"999"
-			"ypos"			"999"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
+			{			
+			"pin_to_sibling"	"modelpanel8"
 			}
 			
 			"modelpanel10"
