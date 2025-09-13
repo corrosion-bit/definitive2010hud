@@ -19,8 +19,8 @@
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
 		
-		"selectlabely_default"		"25"
-		"selectlabely_onchanges"	"15"
+		"selectlabely_default"		"300"
+		"selectlabely_onchanges"	"300"
 		
 		"class_ypos"				"40"
 		"class_xdelta"				"5"
@@ -511,13 +511,13 @@
 		"xpos"			"0"
 		"ypos"			"215"
 		"zpos"			"1"
-		"wide"			"0"
+		"wide"			"0	"
 		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor"		"117 107 94 255"
+		"fgcolor_override" "117 107 94 255"
 		"centerwrap"	"1"
 	}
 	
@@ -557,23 +557,6 @@
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
-	"SelectLabelPin"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SelectLabelPin"
-		"labelText"		"#NoGCNoItems"
-		"textAlignment"	"north"
-		"xpos"			"cs-0.5"
-		"ypos"			"315"
-		"zpos"			"1"
-		"wide"			"0"
-		"tall"			"0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		//"fgcolor_override" "200 80 60 255"
-	}
 	"SelectLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -582,7 +565,7 @@
 		"labelText"		"#SelectClassLoadout"
 		"textAlignment"	"north"
 		"xpos"			"0"
-		"ypos"			"315"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"30"
@@ -591,9 +574,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "117 107 94 255"
-		"pin_to_sibling" "SelectLabelPin"
-		"pin_corner_to_sibling" "PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
 	}
 	"LoadoutChangesLabel"
 	{
@@ -612,6 +592,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
+		"pin_to_sibling" "SelectLabel"
+		"pin_corner_to_sibling" "PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"
 	}
 	
 	"class_loadout_panel"
