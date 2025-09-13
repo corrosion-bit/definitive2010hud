@@ -57,11 +57,3 @@
 		"subimage" "glyph_muted"
 		"tooltip" "#MMenu_MutePlayers"
 	}
-
-	"QuitButton2"
-	{
-		"label"			"#TF_Quit_Title"
-		"command"		"quit"
-		"OnlyAtMenu"	"1"
-		"subimage" "glyph_quit"
-	}
